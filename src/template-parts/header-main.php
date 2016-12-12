@@ -4,20 +4,18 @@
     <header role="banner">
         <!-- Navigation: Primary -->
         <div class="navigation-primary">
-                <nav class="main-navigation" role="navigation">
-                <?php
-                    if (has_nav_menu('primary'))
-                    {
-                        wp_nav_menu( array(
-                            'theme_location'    => 'primary',
-                            'container_class'   => 'navigation-primary-menu',
-                        ));
-                    }
-                ?>
-                </nav>
-            </div>
+            <nav class="main-navigation" role="navigation">
+            <?php
+                if (has_nav_menu('header'))
+                {
+                    wp_nav_menu( array(
+                        'theme_location'    => 'header',
+                        'container_class'   => 'navigation-primary-menu',
+                    ));
+                }
+            ?>
+            </nav>
         </div>
-
 
         <!-- Navigation: Mobile -->
         <div class="navigation-mobile">

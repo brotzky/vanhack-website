@@ -3,9 +3,7 @@
  * General Wordpress Cleanup
  */
   // hide admin bar for admin users
-  if ( current_user_can( 'update_core' ) ) {
-    //show_admin_bar( false );
-  }
+  add_filter('show_admin_bar', '__return_false');
 
   // removing unnecessary meta tags from WordPress header
   remove_action( 'wp_head', 'wp_generator' );
