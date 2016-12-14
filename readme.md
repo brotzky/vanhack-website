@@ -12,7 +12,8 @@ yarn
 yarn start or gulp
 ```
 
-You will need to setup your own local database to connect Wordpress to
+You will need to setup your own local database to connect Wordpress to.
+Also, it is recommended to symlink the build output to the theme folder of your Wordpress.
 
 ### Credit
 
