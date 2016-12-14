@@ -1,5 +1,5 @@
 # Vanhack website
-Vanhack's Marketing Website
+Vanhack's Marketing Website [https://vanhack.com]
 
 This codebase is built on Wordpress for the marketing facing of Vanhack.
 
