@@ -1,0 +1,132 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+
+/**
+ * FONT SIZING
+ */
+
+$font-size-root:        0.625rem;
+$line-height-base:      1.5;
+$line-height-headings:  1.25;
+
+$font-sizes: (
+  1:    1.250,
+  2:    1.500,
+  3:    1.875,
+  4:    2.250,
+  5:    2.812,
+  6:    3.374,
+  7:    4.218,
+  8:    5.062,
+  9:    6.328,
+  10:   7.594
+);
+
+$heading-sizes: (
+  1: map-get($font-sizes, 8),
+  2: map-get($font-sizes, 7),
+  3: map-get($font-sizes, 6),
+  4: map-get($font-sizes, 5),
+  5: map-get($font-sizes, 4),
+  6: map-get($font-sizes, 3)
+);
+
+$font-size-body: map-get($font-sizes, 2);
+
+/**
+ * FONT WEIGHTS
+ */
+
+$font-weight-headings:  500;
+$font-weight-default:   400;
+
+/**
+ * FONT FAMILY
+ */
+
+$font-copy:     'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+$font-headings: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+
+/**
+ * BASE SPACING VALUE
+ */
+
+$base-space: ($line-height-base) * ($font-size-body + rem);
+
+/**
+ * BREAKPOINTS
+ */
+
+$breakpoints: (
+  smallest: 360px,
+  xsmall:   400px,
+  small:    640px,
+  medium:   768px,
+  large:    1024px,
+  xlarge:   1400px,
+  largest:  1500px
+);
+
+/**
+ * GRID
+ */
+
+$grid-gutter: ($base-space / 1.6);
+
+/**
+ * COLORS
+ */
+
+$colors:  (
+  black:          #262626,
+  blue-pale:      #DEE7f0,
+  blue-stone:     #2A3947,
+  brown:          #795548,
+  cyan:           #00BCD4,
+  green:          #32C594,
+  grey-dark:      #424242,
+  grey-mid-light: #E3E3E3,
+  grey-light:     #F8F8F8,
+  grey-lightest:  #F9F9F9,
+  grey-bg:        #ECEFF1,
+  grey:           #E3E3E3,
+  grey-mid:       #777777,
+  grey-mid-dark:  #585858,
+  grey-white:     #FAFAFA,
+  red:            #F44336,
+);
+
+$placeholder: (
+  dark: rgba(#E7EEF5, 0.65),
+  light: rgba(#F1F4FB, 0.65),
+);
+
+$vanhack: (
+  pri:            map-get($colors, blue-pale),
+  sec:            map-get($colors, blue-stone),
+  bg:             map-get($colors, grey-bg),
+  border:         map-get($colors, blue-pale)
+);
+
+
+$headings-color:  map-get($colors, black);
+$text-color:      map-get($colors, black);
+$link-color:      map-get($colors, blue);
+
+/**
+ * EASINGS
+ */
+
+$easings: (
+  in:             cubic-bezier(0.47, 0, 0.745, 0.715),
+  in-back:        cubic-bezier(0.6, -0.28, 0.735, 0.045),
+  out:            cubic-bezier(0.23, 1, 0.32, 1),
+  out-back:       cubic-bezier(0.175, 0.885, 0.32, 1.275),
+  in-out:         cubic-bezier(0.86, 0, 0.07, 1),
+  in-out-back:    cubic-bezier(0.68, -0.55, 0.265, 1.55)
+);
+
+$transition-ease:   map-get($easings, out) !default;
+$transition-speed:  0.25 !default;

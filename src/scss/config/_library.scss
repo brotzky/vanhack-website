@@ -1,0 +1,11 @@
+// ==== LIBRARY ==== //
+
+// Master config function
+@function config($map, $key) {
+  @return map-get($map, $key);
+}
+
+// Same thing for theme metadata
+@function metadata($request) {
+  @return config($_metadata, $request);
+}

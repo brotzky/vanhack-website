@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #MIXINS - TRANSITIONS
+\*------------------------------------*/
+
+@mixin ease($type: $transition-ease, $speed: $transition-speed) {
+  @if ($type == 'in') {
+    transition: all $speed+s ease(in);
+  } @elseif ($type == 'in-back') {
+    transition: all $speed+s ease(in-back);
+  } @elseif ($type == 'out') {
+    transition: all $speed+s ease(out);
+  } @elseif ($type == 'out-back') {
+    transition: all $speed+s ease(out-back);
+  } @elseif ($type == 'in-out') {
+    transition: all $speed+s ease(in-out);
+  } @elseif ($type == 'in-out-back') {
+    transition: all $speed+s ease(in-out-back);
+  }
+}
+
+
+/*------------------------------------*\
+    #MIXINS / BREAKPOINTS
+\*------------------------------------*/
+
+@mixin bp-custom($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin bp($bp) {
+  @if map-has-key($breakpoints, $bp) {
+    @media (min-width: #{map-get($breakpoints, $bp)}) {
+      @content;
+    }
+  } @else {
+    @warn "No value could be retrieved from `#{$bp}`." + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}

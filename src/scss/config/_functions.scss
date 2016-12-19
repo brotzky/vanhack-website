@@ -1,0 +1,88 @@
+/*------------------------------------*\
+    #FUNCTIONS
+\*------------------------------------*/
+
+/**
+ * FONTS
+ */
+
+@function font($key) {
+
+  @if map-has-key($font-sizes, $key) {
+    @return map-get($font-sizes, $key) + rem;
+  }
+
+  @warn "Unknown `#{$key}` in $font-sizes.";
+  @return null;
+}
+
+/**
+ * HEADINGS
+ */
+
+@function heading($key) {
+
+  @if map-has-key($heading-sizes, $key) {
+    @return map-get($heading-sizes, $key) + rem;
+  }
+
+  @warn "Unknown `#{$key}` in $heading-sizes.";
+  @return null;
+}
+
+/**
+ * COLORS
+ */
+
+@function color($key) {
+
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+@function bank($key) {
+
+  @if map-has-key($banks, $key) {
+    @return map-get($banks, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $bank.";
+  @return null;
+}
+
+@function placeholder($key) {
+
+  @if map-has-key($placeholder, $key) {
+    @return map-get($placeholder, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $placeholder.";
+  @return null;
+}
+
+@function vanhack($key) {
+  @if map-has-key($grow, $key) {
+    @return map-get($grow, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $grow.";
+  @return null;
+}
+
+/**
+ * EASINGS
+ */
+
+@function ease($key: 'out') {
+
+  @if map-has-key($easings, $key) {
+    @return map-get($easings, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $easings.";
+  @return null;
+}
