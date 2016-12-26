@@ -81,8 +81,9 @@ $grid-gutter: ($base-space / 1.6);
 
 $colors:  (
   black:          #262626,
-  blue-pale:      #DEE7f0,
+  blue-pale:      #F6F9FC,
   blue-stone:     #2A3947,
+  blue:           #0E75E0,
   brown:          #795548,
   cyan:           #00BCD4,
   green:          #32C594,
@@ -104,9 +105,9 @@ $placeholder: (
 );
 
 $vanhack: (
-  pri:            map-get($colors, blue-pale),
+  pri:            map-get($colors, blue),
   sec:            map-get($colors, blue-stone),
-  bg:             map-get($colors, grey-bg),
+  bg:             map-get($colors, blue-pale),
   border:         map-get($colors, blue-pale)
 );
 

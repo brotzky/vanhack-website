@@ -1,50 +1,42 @@
 <body <?php body_class(); ?>>
 <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
-<div id="page" class="hfeed site">
-    <header role="banner">
-        <!-- Navigation: Primary -->
-        <div class="navigation-primary">
-            <nav class="main-navigation" role="navigation">
-            <?php
-                if (has_nav_menu('header'))
-                {
-                    wp_nav_menu( array(
-                        'theme_location'    => 'header',
-                        'container_class'   => 'navigation-primary-menu',
-                    ));
-                }
-            ?>
-            </nav>
-        </div>
+<div class="VanHack" class="hfeed site">
+    <div class="NavigationPrimary">
+        <nav class="NavigationPrimary__nav Container" role="navigation">
+        <?php
+            if (has_nav_menu('header'))
+            {
+                wp_nav_menu( array(
+                    'theme_location'    => 'header',
+                    'container_class'   => 'NavigationPrimaryMenu',
+                ));
+            }
+        ?>
+        </nav>
+    </div>
 
-        <!-- Navigation: Mobile -->
-        <div class="navigation-mobile">
-            <!-- Navigation Mobile: Top -->
-            <div class="navigation-mobile-top">
-                <div class="navigation-icon" id="js-mobile-navigation">
-                    <span></span><span></span><span></span>
-                </div>
-                <div class="navigation-mobile-logo">
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo( 'name' ); ?>">
-                    </a>
-                </div>
+    <div class="NavigationMobile">
+        <div class="NavigationMobile__top">
+            <div class="NavigationMobile__icon" id="js-mobile-navigation">
+                <span></span><span></span><span></span>
             </div>
-
-            <!-- Navigation Mobile: Primary -->
-            <nav class="navigation-mobile-primary">
-                <?php
-                // Mobile primary navigation
-                if (has_nav_menu('mobile'))
-                {
-                    wp_nav_menu(array(
-                        'theme_location'  => 'mobile',
-                        'container_class' => 'navigation-mobile-menu',
-                    ));
-                }
-                ?>
-            </nav>
+            <div class="NavigationMobile__logo">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo( 'name' ); ?>">
+                </a>
+            </div>
         </div>
-    </header>
 
-    <div id="content-wrapper">
-        <div id="content" class="site-content">
+        <nav class="NavigationMobile__primary">
+            <?php
+            // Mobile primary navigation
+            if (has_nav_menu('mobile'))
+            {
+                wp_nav_menu(array(
+                    'theme_location'  => 'mobile',
+                    'container_class' => '"NavigationMobile__menu',
+                ));
+            }
+            ?>
+        </nav>
+    </div>
+    <div class="SiteContent">

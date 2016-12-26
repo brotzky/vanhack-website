@@ -1,18 +1,15 @@
-        </div><? // Close #content ?>
-    </div><? // Close #content-wrapper ?>
+    </div><? // Close .SiteContent ?>
 
-    <footer role="contentinfo">
-      <div class="row">
-          <div class="twelve columns footer">
-              <?php
-                  if (has_nav_menu('footer')) {
-                      wp_nav_menu( array(
-                          'theme_location' => 'footer',
-                          'container_class' => 'footer-menu'
-                      ));
-                  }
-              ?>
-          </div>
+    <footer class="NavigationFooter" role="footer">
+      <div class="Container">
+          <?php
+              if (has_nav_menu('footer')) {
+                  wp_nav_menu( array(
+                      'theme_location' => 'footer',
+                      'container_class' => 'NavigationFooter'
+                  ));
+              }
+          ?>
       </div>
     </footer>
 </div> <? // Close #page ?>

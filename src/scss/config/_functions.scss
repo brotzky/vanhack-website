@@ -65,11 +65,11 @@
 }
 
 @function vanhack($key) {
-  @if map-has-key($grow, $key) {
-    @return map-get($grow, $key);
+  @if map-has-key($vanhack, $key) {
+    @return map-get($vanhack, $key);
   }
 
-  @warn "Unknown `#{$key}` in $grow.";
+  @warn "Unknown `#{$key}` in $vanhack.";
   @return null;
 }
 

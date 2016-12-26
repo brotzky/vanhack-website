@@ -1,0 +1,26 @@
+.JobsAbroad {
+
+  &Module {
+    padding: 50px 0px;
+  }
+
+  &Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E4EDF5;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.1);
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2.5rem;
+  }
+
+  &__text {
+    font-weight: 600;
+  }
+
+  &__cta {
+    
+  }
+}

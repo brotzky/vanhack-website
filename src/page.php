@@ -9,7 +9,7 @@ $domain_path = $_SERVER[REQUEST_URI];
 
 ?>
 
-<div class="container">
+<div class="Conatiner">
 
 <h2><?php echo $domain ?> <strong><?php echo $domain_path ?></strong>  </h2>
 

@@ -1,0 +1,28 @@
+.Pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PricingCard {
+  width: 48%;
+  box-shadow: 0 3px 12px rgba(black, .08);
+  border-radius: 4px;
+  overflow: hidden;
+
+  &__header {
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    padding: 35px 30px 20px;
+    margin: 0 auto 20px;
+    border-bottom: 2px solid #f6f9fc;
+  }
+
+  &__body {
+
+  }
+
+  &__footer {
+
+  }
+}

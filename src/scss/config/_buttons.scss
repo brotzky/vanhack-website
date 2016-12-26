@@ -1,0 +1,42 @@
+.Button {
+  display: inline-block;
+  background-color: vanhack(pri);
+  color: white;
+  border-radius: 50px;
+  border: 0;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 16px 30px;
+  @include ease(out);
+
+  &:hover,
+  &:focus {
+    background-color: lighten(vanhack(pri), 10%);
+  }
+}
+
+.ButtonSecondary {
+  display: inline-block;
+  border: 2px solid vanhack(pri);
+  background-color: transparent;
+  color: vanhack(pri);
+  border-radius: 50px;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 16px 30px;
+  @include ease(out);
+
+  &:hover,
+  &:focus {
+    border-color: lighten(vanhack(pri), 20%);
+    color: lighten(vanhack(pri), 20%);
+  }
+}

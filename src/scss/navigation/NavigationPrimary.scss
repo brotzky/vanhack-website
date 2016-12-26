@@ -1,0 +1,16 @@
+.NavigationPrimary {
+  height: 50px;
+  margin: 10px auto 0;
+}
+
+.NavigationPrimaryMenu {
+  display: flex;
+  align-items: center;
+
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
