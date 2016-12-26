@@ -81,6 +81,7 @@ $grid-gutter: ($base-space / 1.6);
 
 $colors:  (
   black:          #262626,
+  black-light:    #484848,
   blue-pale:      #F6F9FC,
   blue-stone:     #2A3947,
   blue:           #0E75E0,
@@ -99,11 +100,6 @@ $colors:  (
   red:            #F44336,
 );
 
-$placeholder: (
-  dark: rgba(#E7EEF5, 0.65),
-  light: rgba(#F1F4FB, 0.65),
-);
-
 $vanhack: (
   pri:            map-get($colors, blue),
   sec:            map-get($colors, blue-stone),
@@ -111,9 +107,8 @@ $vanhack: (
   border:         map-get($colors, blue-pale)
 );
 
-
-$headings-color:  map-get($colors, black);
-$text-color:      map-get($colors, black);
+$headings-color:  map-get($colors, black-light);
+$text-color:      map-get($colors, black-light);
 $link-color:      map-get($colors, blue);
 
 /**

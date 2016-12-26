@@ -1,6 +1,6 @@
 <?php if('cta_jobs_abroad' === get_row_layout() ): ?>
 
-<section class="JobsAboardModule">
+<section class="JobsAbroadModule">
   <div class="Container">
     <div class="JobsAbroadContainer">
       <div class="JobsAbroad__text">
