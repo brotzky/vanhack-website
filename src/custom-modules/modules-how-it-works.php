@@ -1,4 +1,4 @@
-<?php if('how-it-works' === get_row_layout() ): ?>
+<?php if('how_it_works' === get_row_layout() ): ?>
 
 <section class="HowItWorksModule">
   <div class="Container">

@@ -4,12 +4,12 @@
   <div class="Container">
     <div class="Pricing">
       <div class="PricingCard">
-        <div class="PricingCard__header">Header</div>
+        <div class="PricingCard__header">Standard</div>
         <div class="PricingCard__body">Body</div>
         <div class="PricingCard__footer">Footer</div>
       </div>
       <div class="PricingCard">
-        <div class="PricingCard__header">Header</div>
+        <div class="PricingCard__header">Professional</div>
         <div class="PricingCard__body">Body</div>
         <div class="PricingCard__footer">Footer</div>
       </div>  

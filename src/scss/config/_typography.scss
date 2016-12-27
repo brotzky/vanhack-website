@@ -44,3 +44,10 @@ small {
 .underline {
   text-decoration: underline;
 }
+
+.TextRule {
+  border-color: vanhack(pri);
+  color: vanhack(pri);
+  width: 50px;
+  margin-bottom: 30px;
+}
