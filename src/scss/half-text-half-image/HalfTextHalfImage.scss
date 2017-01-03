@@ -17,4 +17,8 @@
     display: flex;
     flex-direction: column;
   }
+
+  &__text {
+    margin-bottom: $base-space;
+  }
 }
