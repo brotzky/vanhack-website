@@ -1,0 +1,52 @@
+.TestimonialBlue {
+  &__split {
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: vanhack(pri);
+    color: white;
+    width: 50%;
+  }
+
+  &__quote {
+    position: relative;
+    width: 55%;
+    font-size: font(3);
+    font-weight: 400;
+
+    &-symbol {
+      position: absolute;
+      opacity: 0.6;
+      height: 40px;
+      left: -62px;
+      top: -5px;
+    }
+  }
+
+  &__text {
+    color: white;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: font(2);
+  }
+
+  &__role {
+    font-weight: 400;
+    font-size: font(2);
+  }
+
+  &__image {
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 50%;
+  }
+}

@@ -1,0 +1,11 @@
+.Faq {
+  &Row {
+    padding-bottom: 1rem;
+  }
+
+  &__header {
+    font-size: font(5);
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+}

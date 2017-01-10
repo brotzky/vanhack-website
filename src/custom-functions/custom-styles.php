@@ -8,7 +8,7 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
  * Google Font: Source Sans Pro
  * 200, 300 Italic, 300, 400, 600
  */
-wp_enqueue_style( 'fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,500,700' );
+wp_enqueue_style( 'fonts', '//fonts.googleapis.com/css?family=Open+Sans:400,600' );
 
 /**
  * Main prod. stylesheet
