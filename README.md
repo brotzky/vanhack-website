@@ -1,7 +1,6 @@
 # Vanhack website
-Vanhack's Marketing Website [https://vanhack.com]
 
-This codebase is built on Wordpress for the marketing facing of Vanhack.
+This site is still in the process of being built. Will be live in the near future.
 
 ## Getting Started
 
