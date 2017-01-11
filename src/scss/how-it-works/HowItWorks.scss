@@ -1,0 +1,74 @@
+.HowItWorks {
+  
+  &Container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__image {
+    width: 50%;
+  }
+}
+
+.Icon {
+
+  &Column {
+    width: 40%;
+    margin-left: auto;
+
+    h2 {
+      font-size: font(5);
+      margin-bottom: $base-space * 2;
+      color: vanhack(pri);
+    }
+
+  }
+
+  &ColumnRow {
+    position: relative;
+    display: flex;
+    padding-bottom: $base-space;
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 1px;
+      background-color: vanhack(pri);
+      position: absolute;
+      left: 29px;
+      opacity: 0.6;
+    }
+
+    &:last-child {
+      &::before {
+        content: none;
+      }
+    }
+
+    &__text {
+      margin-left: 5%;
+
+      h3 {
+        font-size: font(4);
+        font-weight: 600;
+      }
+
+      p {
+
+      }
+    }
+
+    &__icon {
+      position: relative;
+      top: -15px;
+      border-radius: 50%;
+
+      svg {
+        border: 8px solid white;
+        width: 60px;
+        background-color: white;
+      }
+    }
+
+  }
+}
