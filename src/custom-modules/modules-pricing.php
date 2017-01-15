@@ -8,7 +8,26 @@
     </div>
     <div class="Pricing">
       <div class="PricingCard">
-        <div class="PricingCard__header">VanHack Pro</div>
+        <div class="PricingCard__header"">VanHack Free</div>
+        <div class="PricingCard__body">
+          <div class="PricingCard__pricing">
+            <span class="PricingCard__pricing-amount">0</span>
+          </div>
+          <ul class="PricingCard__list">
+            <li class="PricingCard__item">Course on how to create your International Profile: Cover Letter, Resume, LinkedIn and Portfolio.</li>
+            <li class="PricingCard__item">Personal consultation call with VanHack team member.</li>
+            <li class="PricingCard__item">Exclusive Webinars and videos added monthly</li>
+          </ul>
+        </div>
+        <div class="PricingCard__footer">
+          <div class="PricingCard__footer">
+            <a href="" class="PricingCard__button Button">Join VanHack</a>
+            <div class="PricingCard__footer--learn">Learn More</div>
+          </div>
+        </div>
+      </div>
+      <div class="PricingCard">
+        <div class="PricingCard__header"">VanHack Pro</div>
         <div class="PricingCard__body">
           <div class="PricingCard__pricing">
             <span class="PricingCard__pricing-amount">10</span>
@@ -27,7 +46,7 @@
         </div>
       </div>
       <div class="PricingCard">
-        <div class="PricingCard__header">VanHack Premium</div>
+        <div class="PricingCard__header"">VanHack Premium</div>
         <div class="PricingCard__body">
           <div class="PricingCard__pricing">
             <span class="PricingCard__pricing-amount">65</span>

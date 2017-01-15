@@ -7,6 +7,7 @@
   $cta_link    = get_sub_field('cta_link');
   $image       = get_sub_field('image');
   $image_side  = get_sub_field('image_side');
+  
 ?>
 
     <section class="HalfTextHalfImageModule <?php if($bg_color === 'light_blue') : echo 'vanhack-bg'; endif; ?>">

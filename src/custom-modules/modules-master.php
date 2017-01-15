@@ -6,7 +6,7 @@ include(TEMPLATEPATH.'/custom-modules/modules-html.php');
 // Pricing
 include(TEMPLATEPATH.'/custom-modules/modules-pricing.php');
 // Pricing
-include(TEMPLATEPATH.'/custom-modules/modules-cta-jobs-abroad.php');
+include(TEMPLATEPATH.'/custom-modules/modules-simple-cta.php');
 // FAQ
 include(TEMPLATEPATH.'/custom-modules/modules-faq.php');
 // Who is it for

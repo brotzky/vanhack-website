@@ -63,9 +63,10 @@
     &::before {
       content: '';
       position: absolute;
-      left: -15px;
-      top: 50%;
-      height: 1px;
+      left: -18px;
+      top: 43%;
+      border-radius: 50%;
+      height: 7px;
       width: 7px;
       background-color: vanhack(pri);
     }
