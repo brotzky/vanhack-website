@@ -3,6 +3,7 @@
   $bg_color    = get_sub_field('bg_color');
   $header      = get_sub_field('header');
   $text        = get_sub_field('text');
+  $cta_styles   = get_sub_field('cta_styles');
   $cta_text    = get_sub_field('cta_text');
   $cta_link    = get_sub_field('cta_link');
   $image       = get_sub_field('image');
@@ -22,7 +23,7 @@
             <div class="HalfTextHalfImage__header"><h3><?php echo $header; ?></h3></div>
             <div class="HalfTextHalfImage__text"><p><?php echo $text; ?></p></div>
             <div class="HalfTextHalfImage__cta">
-              <a class="ButtonSecondary" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
+              <a class="Button<?php if($cta_styles === 'secondary') : echo 'Secondary'; endif; ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
             </div>
           </div>
         </div>
@@ -37,7 +38,7 @@
           <div class="HalfTextHalfImage__header"><h3><?php echo $header; ?></h3></div>
           <div class="HalfTextHalfImage__text"><p><?php echo $text; ?></p></div>
           <div class="HalfTextHalfImage__cta">
-            <a class="ButtonSecondary" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
+            <a class="Button<?php if($cta_styles === 'secondary') : echo 'Secondary'; endif; ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
           </div>
         </div>
         <div class="HalfTextHalfImage__image">
