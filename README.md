@@ -1,4 +1,4 @@
-# Vanhack website
+# VanHack website
 
 This site is still in the process of being built. Will be live in the near future.
 
