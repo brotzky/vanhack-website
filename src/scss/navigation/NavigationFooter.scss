@@ -4,4 +4,15 @@
   line-height: 30px;
   white-space: nowrap;
   background-color: vanhack(sec);
+
+  ul {
+    list-style: none;
+    
+    li {
+
+      a {
+        color: white;
+      }
+    }
+  }
 }

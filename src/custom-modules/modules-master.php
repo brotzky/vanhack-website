@@ -1,5 +1,7 @@
 <?php
 // Two Columns Text
+include(TEMPLATEPATH.'/custom-modules/modules-full-width-background.php');
+// Two Columns Text
 include(TEMPLATEPATH.'/custom-modules/modules-half-text-half-image.php');
 // HTML Markup
 include(TEMPLATEPATH.'/custom-modules/modules-html.php');
