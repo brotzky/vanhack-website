@@ -1,10 +1,23 @@
 .Faq {
-  &Row {
+
+  &Header {
+    padding-bottom: 5rem;
+  }
+
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__answer {
+    width: 48%;
+    display: inline-block;
     padding-bottom: 1rem;
   }
 
   &__header {
-    font-size: font(4);
+    font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
   }
