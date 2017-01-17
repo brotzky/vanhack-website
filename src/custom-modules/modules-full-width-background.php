@@ -32,17 +32,17 @@
           <?php if("yes" === $horizontal_rule): ?>
             <hr>
           <?php endif; ?>
-          <?php if ('yes' === $add_title) : ?>
+          <?php if ($add_title) : ?>
             <<?php echo $title_html_tag; ?> class="<?php echo $text_color . ' ' . $title_font_size; ?>"><?php echo $title; ?></<?php echo $title_html_tag; ?>>
           <?php endif; ?>
 
-            <?php if( 'yes' == $subtitle):?>
+            <?php if($subtitle):?>
               <<?php echo $title_html_tag;?> class="<?php echo $text_color . ' ' . $title_font_size; ?>">
               <?php echo $sub_title; ?>
               </<?php echo  $title_html_tag;?>>
             <?php endif; ?>
 
-            <?php if('yes' === $call_to_action): ?>
+            <?php if($call_to_action): ?>
               <a class="Button <?php echo $call_to_action_type; ?>" href="<?php echo $call_to_action_url; ?>"><?php echo $call_to_action_text; ?></a>
             <?php endif; ?>
           </div>
@@ -70,7 +70,7 @@
               <hr class="TextRule" />
             <?php endif; ?>
 
-            <?php if ('yes' === $add_title) : ?>
+            <?php if ($add_title) : ?>
               <<?php echo $title_html_tag; ?> class="<?php echo $text_color . ' ' . $title_font_size; ?>"><?php echo $title; ?></<?php echo $title_html_tag; ?>>
             <?php endif; ?>
 
@@ -80,11 +80,11 @@
               </<?php echo  $sub_title_html_tag;?>>
             <?php endif; ?>
 
-            <?php if('yes' === $call_to_action): ?>
+            <?php if($call_to_action): ?>
                 <a class="Button <?php echo $call_to_action_type; ?>" href="<?php echo $call_to_action_url; ?>"><?php echo $call_to_action_text; ?></a>
             <?php endif; ?>
 
-            <?php if('yes' === $call_to_action): ?>
+            <?php if($call_to_action): ?>
                 <a class="Button <?php echo $call_to_action_type; ?>" href="<?php echo $call_to_action_url; ?>"><?php echo $call_to_action_text; ?></a>
             <?php endif; ?>
             </div>
