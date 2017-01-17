@@ -28,7 +28,7 @@
 
     <div class="FullWidth <?php echo $background_height . ' '. $solid_color . ' ' . $padding . ' ' . $margin_bottom; ?>">
       <div class="Container">
-          <div class="content-wrapper columns <?php echo $text_position . ' ' . $content_width; ?>">
+          <div class="FullWidth__wrapper <?php echo $text_position . ' ' . $content_width; ?>">
           <?php if("yes" === $horizontal_rule): ?>
             <hr>
           <?php endif; ?>
@@ -48,7 +48,7 @@
           </div>
 
           <?php if ($content_width === 'six' && $text_position === 'right' && $foreground['url']): ?>
-            <div class="full-width-foreground six columns">
+            <div class="full-width-foreground six">
               <img src="<?php echo $foreground['url'] ?>" alt="<?php echo $foreground['alt'] ?>">
             </div>
           <?php endif ?>
@@ -59,12 +59,13 @@
     <div class="FullWidth <?php echo $background_height . ' ' . $solid_color . ' ' . $padding . ' ' . $margin_bottom; ?>" style="background-image:url('<?php echo $background_image; ?>')">
       <div class="Container">
           <?php if ($content_width === 'six' && $text_position === 'right' && $foreground['url']): ?>
-            <div class="full-width-foreground six columns">
+            <div class="full-width-foreground six">
               <img src="<?php echo $foreground['url'] ?>" alt="<?php echo $foreground['alt'] ?>">
             </div>
           <?php endif ?>
 
-          <div class="content-wrapper columns <?php echo $text_position . ' ' . $content_width; ?>">
+          <div class="FullWidth__wrapper <?php echo $text_position . ' ' . $content_width; ?>">
+            <div class="FullWidth__content">
             <?php if("yes" === $horizontal_rule): ?>
               <hr class="TextRule" />
             <?php endif; ?>
@@ -86,10 +87,11 @@
             <?php if('yes' === $call_to_action): ?>
                 <a class="Button <?php echo $call_to_action_type; ?>" href="<?php echo $call_to_action_url; ?>"><?php echo $call_to_action_text; ?></a>
             <?php endif; ?>
+            </div>
           </div>
 
           <?php if ($content_width === 'six' && $text_position === 'left' && $foreground['url']): ?>
-            <div class="full-width-foreground six columns">
+            <div class="full-width-foreground six">
               <img src="<?php echo $foreground['url'] ?>" alt="<?php echo $foreground['alt'] ?>">
             </div>
           <?php endif ?>
