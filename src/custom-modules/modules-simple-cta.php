@@ -13,7 +13,7 @@ $cta_link     = get_sub_field('cta_link');
         <?php echo $text; ?>
       </div>
       <div class="JobsAbroad__cta">
-        <a href="<?php echo $cta_link; ?>" class="Button"><?php echo $cta_text; ?></a>
+        <a href="<?php echo $cta_link; ?>" class="ButtonPrimary"><?php echo $cta_text; ?></a>
       </div>
     </div>
   </div>

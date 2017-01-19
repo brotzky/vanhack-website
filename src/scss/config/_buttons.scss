@@ -1,20 +1,21 @@
-.Button {
+.ButtonPrimary {
   display: inline-block;
   background-color: vanhack(pri);
   color: white;
-  border-radius: 4px;
-  border: 0;
+  border-radius: 2px;
+  border: 2px solid vanhack(pri);
   line-height: 16px;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  padding: 16px 30px;
+  padding: 12px 24px;
   @include ease(out);
 
   &:hover,
   &:focus {
+    border-color: lighten(vanhack(pri), 10%);
     background-color: lighten(vanhack(pri), 10%);
   }
 }
@@ -24,14 +25,14 @@
   border: 2px solid vanhack(pri);
   background-color: transparent;
   color: vanhack(pri);
-  border-radius: 4px;
+  border-radius: 2px;
   line-height: 16px;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  padding: 16px 30px;
+  padding: 12px 24px;
   @include ease(out);
 
   &:hover,

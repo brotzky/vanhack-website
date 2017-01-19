@@ -21,7 +21,7 @@
         </div>
         <div class="PricingCard__footer">
           <div class="PricingCard__footer">
-            <a href="" class="PricingCard__button Button">Join VanHack</a>
+            <a href="" class="PricingCard__button ButtonPrimary">Join VanHack</a>
             <div class="PricingCard__footer--learn">Learn More</div>
           </div>
         </div>
@@ -40,7 +40,7 @@
         </div>
         <div class="PricingCard__footer">
           <div class="PricingCard__footer">
-            <a href="" class="PricingCard__button Button">Join VanHack Pro</a>
+            <a href="" class="PricingCard__button ButtonPrimary">Join VanHack Pro</a>
             <div class="PricingCard__footer--learn">Learn More</div>
           </div>
         </div>
@@ -61,7 +61,7 @@
           </ul>
         </div>
         <div class="PricingCard__footer">
-          <a href="" class="PricingCard__button Button">Join VanHack Premium</a>
+          <a href="" class="PricingCard__button ButtonPrimary">Join VanHack Premium</a>
           <div class="PricingCard__footer--learn">Learn More</div>
         </div>
       </div>  

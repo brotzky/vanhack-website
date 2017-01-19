@@ -21,7 +21,14 @@
   }
 
   &__content {
-    max-width: 40%;
     padding-bottom: $base-space * 2.5;
+  }
+
+  &__cta {
+    padding-top: $base-space * 1.25;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
   }
 }

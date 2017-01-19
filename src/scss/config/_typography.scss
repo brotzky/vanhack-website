@@ -52,3 +52,35 @@ small {
   width: 50px;
   margin-bottom: 30px;
 }
+
+
+.TextRule--center {
+  border-color: vanhack(pri);
+  color: vanhack(pri);
+  width: 50px;
+  margin: 0 auto 30px;
+}
+
+
+.TextRule--right {
+  border-color: vanhack(pri);
+  color: vanhack(pri);
+  width: 50px;
+  margin: 0 0 30px auto;
+}
+
+.Small {
+  font-size: font(2);
+}
+
+.Medium {
+  font-size: font(3);
+}
+
+.Large {
+  font-size: font(7);
+}
+
+.XLarge {
+  font-size: font(9);
+}
