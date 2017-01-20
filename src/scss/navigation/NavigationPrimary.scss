@@ -1,16 +1,54 @@
 .NavigationPrimary {
-  height: 50px;
-  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  &__nav {
+    margin: 0 25px 0 auto;
+  }
+
+  &__links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    height: 33px;
+    width: 182px;
+
+    &-link {
+      display: block;
+    }
+  }
 }
 
 .NavigationPrimaryMenu {
   display: flex;
   align-items: center;
 
+
+
   .menu {
     list-style: none;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-weight: 600;
+
+    li {
+      padding: 0px 12px;
+
+      a {
+        font-size: 1.4rem;
+        opacity: 0.9;
+        @include ease(out);
+
+        &:hover {
+          color: vanhack(pri);
+        }
+      }
+    }
   }
 }
