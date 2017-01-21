@@ -1,6 +1,11 @@
 .Pricing {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  @include bp(large) {
+    flex-direction: row;
+  }
 
   &Module {
     background-color: vanhack(bg);
@@ -12,11 +17,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 32.5%;
+  width: 94%;
   box-shadow: 0 3px 8px rgba(black, .08);
   border-radius: 3px;
   overflow: hidden;
   background-color: white;
+  margin: 15px auto;
+
+  @include bp(small) {
+    width: 65.5%;
+    margin: 30px auto;
+  }
+
+  @include bp(large) {
+    width: 32.5%;
+  }
 
   &__header {
     width: 100%;

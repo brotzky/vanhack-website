@@ -1,4 +1,11 @@
 .Faq {
+  &Module {
+    padding: 0 20px;
+
+    @include bp(medium) {
+      padding: 0;
+    }
+  }
 
   &Header {
     padding-bottom: 5rem;
