@@ -25,13 +25,19 @@
 
   &__tiled-card {
     position: absolute;
-    height: 110%;
+    height: 115%;
     background-color: white;
     box-shadow: 0 4px 23px rgba(black, 0.2);
     top: -5%;
     right: 57%;
     width: 360px;
     padding: 35px 30px;
+
+    @include bp(large) {
+      bottom: 5px;
+      left: 0;
+      right: 0;
+    }
   }
 
   &__header {

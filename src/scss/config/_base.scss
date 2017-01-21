@@ -118,10 +118,6 @@ section {
   @include bp(small) {
     padding: 75px 0;
   }
-
-  @include bp(large) {
-    padding: 100px 0;
-  }
 }
 
 main {

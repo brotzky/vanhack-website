@@ -75,5 +75,9 @@
     @include bp(large) {
       width: 50%;
     }
+
+    img {
+      width: 100%;
+    }
   }
 }

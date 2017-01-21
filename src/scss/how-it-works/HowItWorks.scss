@@ -3,18 +3,32 @@
   &Container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+
+    @include bp(large) {
+      flex-direction: row;
+    }
   }
 
   &__image {
-    width: 50%;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
 .Icon {
 
   &Column {
-    width: 40%;
-    margin-left: auto;
+    width: 80%;
+    margin: 75px auto 0;
+
+    @include bp(large) {
+      width: 40%;
+      margin: 0 0 auto 0;
+    }
 
     h2 {
       font-size: font(5);

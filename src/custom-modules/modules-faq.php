@@ -10,7 +10,8 @@
       <hr class="TextRule">
       <div class="HalfTextHalfImage__header"><h3>Frequently Asked Questions</h3></div>
     </div>
-
+      <div class="Faq__content">
+        
       <?php while( have_rows('faq_repeater') ): the_row();
 
         // Repeater Variables
@@ -42,7 +43,8 @@
       <?php
         $i++;
         endwhile; ?>
-
+      </div>
+      
     </div>
   </section>
 

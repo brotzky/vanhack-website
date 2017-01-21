@@ -1,14 +1,19 @@
 .Faq {
   &Module {
-    padding: 0 20px;
+    width: 94%;
+    margin: 0 auto;
 
     @include bp(medium) {
-      padding: 0;
+      width: 100%;
     }
   }
 
   &Header {
     padding-bottom: 5rem;
+  }
+
+  &__content {
+    margin-top: $base-space * 2;
   }
 
   &__row {
