@@ -16,10 +16,23 @@
     margin: 0 auto;
     border-radius: 8px;
     padding: 2.5rem;
+    flex-direction: column;
+    text-align: center;
+    width: 94%;
+
+    @include bp(mlarge) {
+      width: 100%;
+      flex-direction: row;
+    }
   }
 
   &__text {
     font-weight: 600;
+    margin-bottom: $base-space;
+
+    @include bp(mlarge) {
+      margin-bottom: 0;
+    }
   }
 
   &__cta {
