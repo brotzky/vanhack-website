@@ -1,8 +1,8 @@
 <?php if('who_is_it_for' === get_row_layout() ): ?>
 
-<section class="WhoIsItFor">
+<section class="WhoIsItForModule">
   <div class="Container">
-    <div class="SectionHeader--center">
+    <div class="SectionHeader SectionHeader--center">
       <h4>Who is VanHack for?</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit iganda condite oponilop rontonlio adipasam.</p>
     </div>

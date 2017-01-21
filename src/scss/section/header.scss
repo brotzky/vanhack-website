@@ -1,5 +1,11 @@
 .SectionHeader {
   margin-bottom: 50px;
+  width: 85%;
+  margin: 0 auto;
+
+  @include bp(medium) {
+    width: 100%;
+  }
 
   &--center {
     display: flex;

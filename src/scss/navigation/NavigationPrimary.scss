@@ -43,6 +43,7 @@
       a {
         font-size: 1.4rem;
         opacity: 0.9;
+        cursor: pointer;
         @include ease(out);
 
         &:hover {
