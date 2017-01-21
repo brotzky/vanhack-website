@@ -2,31 +2,54 @@
   &__split {
     display: flex;
     overflow: hidden;
+    flex-direction: column;
+
+    @include bp(large) {
+      flex-direction: row;
+    }
   }
 
   &__testimonial {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    padding: 40px 20px;
     flex-grow: 1;
     flex-basis: 0;
     background-color: vanhack(pri);
     color: white;
-    width: 50%;
+    width: 100%;
+
+    @include bp(large) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      padding: 0;
+    }
   }
 
   &__quote {
     position: relative;
-    width: 58%;
-    font-size: font(3);
+    width: 80%;
+    margin: 0 auto;
+    font-size: font(2);
     font-weight: 400;
+
+    @include bp(large) {
+      width: 58%;
+      font-size: font(2);
+    }
 
     &-symbol {
       position: absolute;
-      opacity: 0.6;
+      opacity: 0.2;
       height: 40px;
-      left: -70px;
+      left: -20px;
       top: -5px;
+
+      @include bp(large) {
+        left: -70px;
+        opacity: 0.6;
+      }
     }
   }
 
@@ -47,6 +70,10 @@
   &__image {
     flex-grow: 1;
     flex-basis: 0;
-    width: 50%;
+    width: 100%;
+
+    @include bp(large) {
+      width: 50%;
+    }
   }
 }

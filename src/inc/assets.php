@@ -11,8 +11,6 @@ function vanhack_assets_header() {
   wp_enqueue_script( 'vanhack-header', get_stylesheet_directory_uri() . '/js/' . $file . '.js', $deps = array('jquery'), filemtime( get_template_directory() . '/js/' . $file . '.js' ), false );
 
   // Register and enqueue our main stylesheet with versioning based on last modified time
-  wp_register_style( 'vanhack-style', get_stylesheet_uri(), $dependencies = array(), filemtime( get_template_directory() . '/style.css' ) );
-  wp_enqueue_style( 'vanhack-style' );
 }
 add_action( 'wp_enqueue_scripts', 'vanhack_assets_header' );
 
