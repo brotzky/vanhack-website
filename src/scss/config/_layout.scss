@@ -3,11 +3,27 @@
 }
 
 .ThreeQuarters {
-  width: 75%;
+  width: 96%;
+
+  @include bp(small) {
+    width: 85%
+  }
+
+  @include bp(large) {
+    width: 75%
+  }
 }
 
 .Half {
-  width: 50%;
+  width: 96%;
+
+  @include bp(small) {
+    width: 66%
+  }
+
+  @include bp(large) {
+    width: 50%
+  }
 }
 
 
@@ -26,8 +42,4 @@
   text-right: center;
   align-self: right;
   margin-right: 0;
-}
-
-.FlexCenter {
-
 }

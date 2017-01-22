@@ -24,19 +24,29 @@
   }
 
   &__tiled-card {
-    position: absolute;
+    position: relative;
     height: 115%;
     background-color: white;
     box-shadow: 0 4px 23px rgba(black, 0.2);
-    top: -5%;
-    right: 57%;
-    width: 360px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
     padding: 35px 30px;
 
-    @include bp(large) {
-      bottom: 5px;
-      left: 0;
-      right: 0;
+    @include bp(small) {
+      width: 70%;
+      bottom: 50px;
+    }
+
+    @include bp(xlarge) {
+      position: absolute;
+      height: 115%;
+      top: -5%;
+      right: 57%;
+      width: 375px;
+
     }
   }
 

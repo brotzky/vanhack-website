@@ -18,9 +18,10 @@
                     ));
                 }
             ?>
+
             </nav>
             <div class="NavigationPrimary__cta">
-                <a class="ButtonPrimary ButtonPrimary--small">Join VanHack</a>
+                <a class="ButtonPrimary ButtonPrimary--small" href="http://app.vanhack.com/Account/Register">Join VanHack</a>
             </div>
         </div>
     </div>

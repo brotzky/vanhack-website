@@ -19,3 +19,5 @@ include(TEMPLATEPATH.'/custom-modules/modules-cities.php');
 include(TEMPLATEPATH.'/custom-modules/modules-testimonial-blue-half.php');
 // Testimonials with half image and half blue
 include(TEMPLATEPATH.'/custom-modules/modules-how-it-works.php');
+// Testimonials with half image and half blue
+include(TEMPLATEPATH.'/custom-modules/modules-startup-accelerator.php');

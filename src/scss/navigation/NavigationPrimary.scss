@@ -5,6 +5,11 @@
 
   &__nav {
     margin: 0 25px 0 auto;
+    display: none;
+
+    @include bp(medium) {
+      display: block;
+    }
   }
 
   &__links {
@@ -51,5 +56,19 @@
         }
       }
     }
+  }
+}
+
+#path14,
+#path16,
+#path22,
+#path24,
+#path26,
+#path28,
+#path30 {
+  display: none;
+
+  @include bp(medium) {
+    display: block;
   }
 }
