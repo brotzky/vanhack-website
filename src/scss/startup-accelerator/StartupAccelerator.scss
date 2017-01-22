@@ -10,10 +10,10 @@
 
     a {
       display: block;
-      margin: 15px;
+      margin: 15px auto;
 
       @include bp(mlarge) {
-        margin: 35px 0 50px;
+        margin: 15px 50px 0;
       }
     }
 
