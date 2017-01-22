@@ -49,7 +49,7 @@
             <div class="NavigationFooter__header" style="margin-top: 20px">
                 Contact
             </div>
-            <a href="href="mailto:contact@vanhack.ca" style="color: white">contact@vanhack.ca</a>
+            <a href="href="mailto:contact@vanhack.com" style="color: white">contact@vanhack.com</a>
         </div>
         </div>
       </div>
