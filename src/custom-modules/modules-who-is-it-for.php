@@ -39,8 +39,8 @@
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75"><line x1="37.5" y1="49.5" x2="37.5" y2="57.5" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="33.5" y1="49.5" x2="25.5" y2="59.5" fill="none" stroke="#0675CE" stroke-miterlimit="10" stroke-width="2"/><line x1="41.5" y1="49.5" x2="49.5" y2="59.5" fill="none" stroke="#0675CE" stroke-miterlimit="10" stroke-width="2"/><rect x="35.5" y="17.5" width="4" height="4" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><polyline points="47.5 31.5 37.5 41.5 31.5 35.5 27.5 39.5" fill="none" stroke="#0675CE" stroke-miterlimit="10" stroke-width="2"/><polyline points="41.5 31.5 47.5 31.5 47.5 37.5" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><polyline points="55.5 49.5 55.5 21.5 19.5 21.5 19.5 49.5" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="15.5" y1="49.5" x2="59.5" y2="49.5" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><circle cx="37.5" cy="37.5" r="36.2" fill="none" stroke="#0675CE" stroke-miterlimit="10" stroke-width="2"/></svg>
         </div>
         <div class="WhoIsItFor__text">
-          <h5 class="WhoIsItFor__title">Sales & Marketing</h5>
-          <p class="WhoIsItFor__subtitle">Tempore unde culpa earum sed sit quisquam nulla eos quidem. Dolorem modi quisquam, quod possimus ullam molestiae aut.</p>
+          <h5 class="WhoIsItFor__title">Marketing & Sales Professionals</h5>
+          <p class="WhoIsItFor__subtitle">Everyone needs help promoting their companies and driving revenue. Discover opportunities to show your sales and marketing skills around the world.</p>
         </div>
       </div>
 
