@@ -1,6 +1,8 @@
 # VanHack website
 
-This site is still in the process of being built. Will be live in the near future.
+This site is still in the process of being built. Progress can be viewed at [vanhack.com](http://vanhack.com).
+
+---
 
 ## To Do
 
