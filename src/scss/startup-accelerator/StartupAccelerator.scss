@@ -1,0 +1,23 @@
+.StartupAccelerator {
+  &__logos {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      display: block;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+      max-width: 560px;
+      width: 100%;
+
+      @include bp(medium) {
+        margin: 50px auto;
+      }
+    }
+  }
+
+
+}
