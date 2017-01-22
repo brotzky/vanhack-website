@@ -8,10 +8,10 @@
     </div>
     <div class="StartupAccelerator__logos">
       <a target="_blank" href="http://www.techstars.com/">
-        <img src="/wp-content/themes/VanHack/build/img/modules/startup-accelerators/techstars-logo.png" alt="VanHack Techstars Berline">
+        <img src="/wp-content/themes/vanhack/img/modules/startup-accelerators/techstars-logo.png" alt="VanHack Techstars Berline">
       </a>
       <a target="_blank" href="http://www.startupchile.org/">
-        <img src="/wp-content/themes/VanHack/build/img/modules/startup-accelerators/startup-chili-logo.png" alt="VanHack Startup Chili">
+        <img src="/wp-content/themes/vanhack/img/modules/startup-accelerators/startup-chili-logo.png" alt="VanHack Startup Chili">
       </a>
     </div>
   </div>

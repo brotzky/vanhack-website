@@ -3,7 +3,7 @@
     <div class="Container--large">
       <div class="CitiesRoot">
         <div class="Cities__image">
-          <img src="/wp-content/themes/VanHack/build/img/modules/cities/cities-modules-city-mosaic.jpg" alt="Vanhack connecting cities">
+          <img src="/wp-content/themes/vanhack/img/modules/cities/cities-modules-city-mosaic.jpg" alt="Vanhack connecting cities">
         </div>
         <div class="Cities__tiled-card">
           <div class="Cities__content">

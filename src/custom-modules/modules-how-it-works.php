@@ -3,7 +3,7 @@
 <section class="HowItWorksModule">
   <div class="Container HowItWorksContainer">
     <div class="HowItWorks__image">
-      <img src="/wp-content/themes/vanhack/build/img/modules/how-it-works/woman-facing-monitor.jpg" alt="">
+      <img src="/wp-content/themes/vanhack/img/modules/how-it-works/woman-facing-monitor.jpg" alt="">
     </div>
     <div class="IconColumn">
       <h2>How VanHack Works</h2>

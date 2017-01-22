@@ -5,6 +5,15 @@
   white-space: nowrap;
   background-color: vanhack(sec);
 
+  &__logo {
+    width: 250px;
+  }
+
+  &__navs {
+    display: flex;
+    justify-content: space-between;
+  }
+
   ul {
     list-style: none;
     
