@@ -11,6 +11,7 @@
             <ul class="Cities__list">
               <li class="Cities__item">Berlin</li>
               <li class="Cities__item">Amsterdam</li>
+              <li class="Cities__item">Waterloo</li>
               <li class="Cities__item">Dublin</li>
               <li class="Cities__item">Toronto</li>
               <li class="Cities__item">Santiago</li>

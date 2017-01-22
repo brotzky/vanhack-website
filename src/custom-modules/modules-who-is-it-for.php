@@ -31,7 +31,7 @@
         </div>
         <div class="WhoIsItFor__text">
           <h5 class="WhoIsItFor__title">Network Engineers</h5>
-          <p class="WhoIsItFor__subtitle">Network Engineers: Servers crash all over the world, are you ready to prevent them? Launch a Global Career in Network Engineering with VanHack .</p>
+          <p class="WhoIsItFor__subtitle">Network Engineers: Servers crash all over the world, are you ready to prevent them? Launch a Global Career in Network Engineering with VanHack.</p>
         </div>
       </div>
       <div class="WhoIsItFor__role">
