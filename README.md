@@ -2,6 +2,18 @@
 
 This site is still in the process of being built. Will be live in the near future.
 
+## To Do
+
+- ✅ Intial launch with home landing page
+- ◻️ Pricing for employers
+- ◻️ Blog section
+- ◻️ Localization
+- ◻️ Companies module 
+- ◻️ Video module 
+- ◻️ Testimonial module 
+- ◻️ Mobile slideout navigation 
+
+
 ## Getting Started
 
 ```
