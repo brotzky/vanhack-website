@@ -4,7 +4,7 @@
   <div class="Container">
     <div class="SectionHeader SectionHeader--center">
       <h4>Who is VanHack for?</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit iganda condite oponilop rontonlio adipasam.</p>
+      <p>VanHack is for technology professionals who are interested in working abroad or employing top talent.</p>
     </div>
     <div class="WhoIsItFor__content">
       <div class="WhoIsItFor__role">
@@ -13,7 +13,7 @@
         </div>
         <div class="WhoIsItFor__text">
           <h5 class="WhoIsItFor__title">Engineers & Developers</h5>
-          <p class="WhoIsItFor__subtitle">Tempore unde culpa earum sed sit quisquam nulla eos quidem. Dolorem modi quisquam, quod possimus ullam molestiae aut.</p>
+          <p class="WhoIsItFor__subtitle"> Code has no Accent. We help coders prepare for and find great jobs abroad. Your skills are in demand world wide, shouldn’t your career be global also?</p>
         </div>
       </div>
       <div class="WhoIsItFor__role">
@@ -22,7 +22,7 @@
         </div>
         <div class="WhoIsItFor__text">
           <h5 class="WhoIsItFor__title">Designers & Illustrators</h5>
-          <p class="WhoIsItFor__subtitle">Tempore unde culpa earum sed sit quisquam nulla eos quidem. Dolorem modi quisquam, quod possimus ullam molestiae aut.</p>
+          <p class="WhoIsItFor__subtitle">Ready to design a global career? We’ll show you all the best companies that need your sharp eye and pixel crafting skills.</p>
         </div>
       </div>
       <div class="WhoIsItFor__role">
@@ -30,8 +30,8 @@
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75"><title>Artboard 1</title><polyline points="22 25.93 22 22 25.93 22" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><polyline points="25.93 52.64 22 52.64 22 48.71" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><polyline points="48.71 22 52.64 22 52.64 25.93" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="31.43" y1="22" x2="34.57" y2="22" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="40.07" y1="22" x2="43.21" y2="22" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="31.43" y1="52.64" x2="34.57" y2="52.64" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="22" y1="31.43" x2="22" y2="34.57" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="52.64" y1="31.43" x2="52.64" y2="34.57" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><line x1="22" y1="40.07" x2="22" y2="43.21" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><polygon points="53.43 39.29 33.79 33.79 39.29 53.43 43.21 46.36 51.86 55 55 51.86 46.36 43.21 53.43 39.29" fill="none" stroke="#0675CE" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/><circle cx="37.5" cy="37.5" r="35.84" fill="none" stroke="#0675CE" stroke-miterlimit="10" stroke-width="2"/></svg>
         </div>
         <div class="WhoIsItFor__text">
-          <h5 class="WhoIsItFor__title">UX, UI specialists</h5>
-          <p class="WhoIsItFor__subtitle">Tempore unde culpa earum sed sit quisquam nulla eos quidem. Dolorem modi quisquam, quod possimus ullam molestiae aut.</p>
+          <h5 class="WhoIsItFor__title">Network Engineers</h5>
+          <p class="WhoIsItFor__subtitle">Network Engineers: Servers crash all over the world, are you ready to prevent them? Launch a Global Career in Network Engineering with VanHack .</p>
         </div>
       </div>
       <div class="WhoIsItFor__role">
