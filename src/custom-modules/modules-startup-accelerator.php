@@ -4,7 +4,7 @@
   <div class="Container">
     <div class="SectionHeader SectionHeader--center">
       <hr class="TextRule">
-      <div class="HalfTextHalfImage__header"><h3>VanHack Supporters</h3></div>
+      <div class="HalfTextHalfImage__header"><h3>VanHack Is Supported By</h3></div>
     </div>
     <div class="StartupAccelerator__logos">
       <a target="_blank" href="http://www.techstars.com/">

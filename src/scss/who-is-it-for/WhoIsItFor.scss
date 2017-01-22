@@ -2,7 +2,6 @@
   &__content {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 30px;
     
     @include bp(small) {
       padding: 0;

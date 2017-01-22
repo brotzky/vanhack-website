@@ -5,13 +5,88 @@
   white-space: nowrap;
   background-color: vanhack(sec);
 
+  &__container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+    @include bp(large) {
+      text-align: left;
+      display: flex;
+    }
+  }
+
   &__logo {
     width: 250px;
+    margin: 50px auto;
+
+    @include bp(large) {
+      margin: 0;
+    }
+
+    &-links {
+      margin-top: 15px;
+      font-size: font(2);
+
+      a {
+        color: white;
+        margin-right: 7px;
+
+        &:last-child {
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+
+  &__column {
+    padding: 0;
+    margin-bottom: 50px;
+    width: auto;
+    
+    @include bp(large) {
+      margin: 0;
+      width: 150px;
+      padding-left: $base-space * 2;
+    }
+
+  }
+
+  &__company {
+   margin: 0 auto 50px;
+
+    @include bp(large) {
+      margin: 0;
+      margin-left: auto;
+    }
+  }
+
+  &__header {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(white, 0.7);
+    margin-bottom: 8px;
+  }
+
+  &__social-icons {
+    display: block;
+
+    a {
+      display: inline-block;
+      width: 35px;
+      margin-bottom: 5px;
+    }
   }
 
   &__navs {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+
+    @include bp(large) {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
   }
 
   ul {

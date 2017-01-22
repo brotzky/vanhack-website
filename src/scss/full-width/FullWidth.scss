@@ -34,12 +34,19 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-direction: column;
+
     @include bp(medium) {
       width: 70%;
+      flex-direction: row;
     }
 
     @include bp(xlarge) {
       width: 66%;
+    }
+
+    a {
+      margin-top: $base-space;
     }
   }
 }
