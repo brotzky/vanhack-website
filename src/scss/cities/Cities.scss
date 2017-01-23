@@ -1,6 +1,6 @@
 .Cities {
   &Module {
-    margin-bottom: 50px;
+    margin-bottom: 105px;
   }
 
   &Root {
@@ -33,7 +33,7 @@
     right: 0;
     margin: 0 auto;
     width: 90%;
-    padding: 35px 30px;
+    padding: 35px 40px;
 
     @include bp(small) {
       width: 70%;
@@ -45,14 +45,21 @@
       height: 115%;
       top: -5%;
       right: 57%;
-      width: 375px;
+      width: 400px;
 
     }
   }
 
+  &Header {
+    margin-bottom: 85px;
+  }
+
   &__header {
     font-size: font(4);
-    text-align: center;
+  }
+
+  &__subtitle {
+    opacity: 0.6;
   }
 
   &__list {
