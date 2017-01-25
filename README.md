@@ -6,6 +6,8 @@ This site is still in the process of being built. Progress can be viewed at [van
 ## To Do
 
 - ✅ Intial launch with home landing page
+- ◻️ 404 page
+- ◻️ Sync local and production ACF
 - ◻️ Pricing for employers
 - ◻️ Blog section
 - ◻️ Localization
