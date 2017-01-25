@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 10px;
 
   @include bp(mlarge) {
     padding: 0;
@@ -12,14 +12,15 @@
 
   &__image {
     width: 100%;
-    padding-right: 50px;
     margin: 50px auto;
+    order: 1;
 
     @include bp(small) {
       width: 75%;
     }
 
     @include bp(mlarge) {
+      padding-right: 50px;
       width: 50%;
     }
 

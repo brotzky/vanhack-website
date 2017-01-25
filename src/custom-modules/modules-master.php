@@ -16,6 +16,8 @@ include(TEMPLATEPATH.'/custom-modules/modules-who-is-it-for.php');
 // Which cities Vanhack is in
 include(TEMPLATEPATH.'/custom-modules/modules-cities.php');
 // Testimonials with half image and half blue
+include(TEMPLATEPATH.'/custom-modules/modules-testimonial-card.php');
+// Testimonials with half image and half blue
 include(TEMPLATEPATH.'/custom-modules/modules-testimonial-blue-half.php');
 // Testimonials with half image and half blue
 include(TEMPLATEPATH.'/custom-modules/modules-how-it-works.php');

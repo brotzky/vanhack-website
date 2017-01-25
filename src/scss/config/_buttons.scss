@@ -2,7 +2,7 @@
   display: inline-block;
   background-color: vanhack(pri);
   color: white;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 2px solid vanhack(pri);
   line-height: 16px;
   font-size: 16px;
@@ -11,6 +11,7 @@
   cursor: pointer;
   text-align: center;
   padding: 12px 24px;
+  box-shadow: 0 2px 4px 0 rgba(75,79,84,0.25);
   @include ease(out);
 
   &--small {
@@ -30,7 +31,7 @@
   border: 2px solid vanhack(pri);
   background-color: transparent;
   color: vanhack(pri);
-  border-radius: 2px;
+  border-radius: 3px;
   line-height: 16px;
   font-size: 16px;
   font-weight: 600;
@@ -38,6 +39,7 @@
   cursor: pointer;
   text-align: center;
   padding: 12px 24px;
+  box-shadow: 0 2px 4px 0 rgba(75,79,84,0.25);
   @include ease(out);
 
   &:hover,

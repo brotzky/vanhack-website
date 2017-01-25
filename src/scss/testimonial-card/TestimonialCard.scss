@@ -1,0 +1,59 @@
+.TestimonialCard {
+  &__row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: $base-space;
+  }
+
+  &__card {
+    margin-bottom: $base-space * 2;
+    width: 94.5%;
+    text-align: center;
+    box-shadow: 0 3px 10px 0 rgba(75,79,84, 0.3);
+
+    @include bp(small) {
+      width: 65.5%;
+    }
+
+    @include bp(medium) {
+      width: 50.5%;
+    }
+
+    @include bp(large) {
+      width: 30.5%;
+    }
+  }
+
+  &__content {
+    padding: 18px;
+  }
+
+
+  &__media-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+  }
+
+  &__testimonial {
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+  }
+
+  &__person {
+    font-weight: 600;
+    color: vanhack(pri);
+    margin-bottom: 9px;
+  }
+
+  &__job {
+    font-size: 1.25rem;
+    opacity: 0.5;
+  }
+}

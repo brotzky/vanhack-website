@@ -54,8 +54,12 @@
   }
 
   &__text {
-    font-size: font(3);
+    font-size: font(1);
     color: white;
+
+    @include bp(medium) {
+      font-size: font(3);
+    }
   }
 
   &__name {

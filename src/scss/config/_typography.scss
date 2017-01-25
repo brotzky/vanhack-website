@@ -33,8 +33,13 @@ h6 {
 @each $key, $value in $heading-sizes {
 
   h#{$key} {
-    font-size: $value + rem;
-    margin-bottom: $value / $line-height-base + rem;
+    font-size: ($value - ($value / 3)) + rem;
+    margin-bottom: $value / $line-height-base / 4 + rem;
+
+    @include bp(small) {
+      font-size: $value + rem;
+      margin-bottom: $value / $line-height-base + rem;
+    }
   }
 }
 
@@ -74,11 +79,19 @@ small {
 }
 
 .Medium {
-  font-size: font(3);
+  font-size: font(2);
+  
+  @include bp(medium) {
+    font-size: font(3);
+  }
 }
 
 .Large {
-  font-size: font(6);
+  font-size: font(4);
+
+  @include bp(medium) {
+    font-size: font(6);
+  }
 }
 
 .XLarge {

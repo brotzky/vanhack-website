@@ -1,7 +1,13 @@
 .NavigationPrimary {
+  position: fixed;
+  z-index: 10;
   display: flex;
   align-items: center;
-  height: 60px;
+  top: 0;
+  height: 62px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 3px 3px -3px rgba(black, 0.22);
 
   &__nav {
     margin: 0 25px 0 auto;
