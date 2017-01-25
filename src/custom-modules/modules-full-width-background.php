@@ -64,7 +64,7 @@
           <div class="FullWidth__wrapper <?php echo $text_position . ' ' . $content_width; ?>">
             <div class="FullWidth__content">
             <?php if("yes" === $horizontal_rule): ?>
-              <hr class="TextRule<?php if ($text_position === 'FlexCenter') echo "--center"; ?><?php if($text_position === "FlexRight") echo "--right"; ?>" />
+              <hr class="TextRule<?php if ($text_position === 'FlexCenter') echo "--center"; ?><?php if($text_position === "FlexRight") echo "--right"; ?> <?php if($text_color === 'Light') echo "TextRule--Light"; ?>" />
             <?php endif; ?>
 
             <?php if ($add_title) : ?>

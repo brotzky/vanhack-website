@@ -23,7 +23,7 @@
             <div class="HalfTextHalfImage__header"><h3><?php echo $header; ?></h3></div>
             <div class="HalfTextHalfImage__text"><p><?php echo $text; ?></p></div>
             <div class="HalfTextHalfImage__cta">
-              <a class="Button<?php if($cta_styles === 'secondary') : echo 'Secondary'; endif; ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
+            <a class="Button<?php if($cta_styles === 'secondary') { echo 'Secondary'; } else { echo 'Primary'; } ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
           <div class="HalfTextHalfImage__header"><h3><?php echo $header; ?></h3></div>
           <div class="HalfTextHalfImage__text"><p><?php echo $text; ?></p></div>
           <div class="HalfTextHalfImage__cta">
-            <a class="Button<?php if($cta_styles === 'secondary') : echo 'Secondary'; endif; ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
+          <a class="Button<?php if($cta_styles === 'secondary') { echo 'Secondary'; } else { echo 'Primary'; } ?>" href="<?php echo $cta_link ?>"><?php echo $cta_text ?></a>
           </div>
         </div>
         <div class="HalfTextHalfImage__image">

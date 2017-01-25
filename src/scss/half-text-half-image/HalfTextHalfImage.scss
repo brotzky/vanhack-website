@@ -17,6 +17,7 @@
 
     @include bp(small) {
       width: 75%;
+      order: initial;
     }
 
     @include bp(mlarge) {

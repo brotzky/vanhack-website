@@ -52,25 +52,32 @@ small {
 }
 
 .TextRule {
-  border-color: vanhack(pri);
-  color: vanhack(pri);
+  border: none;
+  background-color: vanhack(pri);
   width: 50px;
+  height: 2px;
   margin-bottom: 30px;
+
+  &--Light {
+    background-color: white;
+  }
 }
 
 
 .TextRule--center {
-  border-color: vanhack(pri);
-  color: vanhack(pri);
+  border: none;
+  background-color: vanhack(pri);
   width: 50px;
+  height: 2px;
   margin: 0 auto 30px;
 }
 
 
 .TextRule--right {
-  border-color: vanhack(pri);
-  color: vanhack(pri);
+  border: none;
+  background-color: vanhack(pri);
   width: 50px;
+  height: 2px;
   margin: 0 0 30px auto;
 }
 
@@ -80,7 +87,7 @@ small {
 
 .Medium {
   font-size: font(2);
-  
+
   @include bp(medium) {
     font-size: font(3);
   }
@@ -96,4 +103,12 @@ small {
 
 .XLarge {
   font-size: font(8);
+}
+
+.Light {
+  color: white;
+}
+
+.Dark {
+  color: $text-color;
 }
