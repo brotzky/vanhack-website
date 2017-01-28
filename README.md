@@ -10,7 +10,7 @@ This site is still in the process of being built. Progress can be viewed at [van
 - ◻️ Sync local and production ACF
 - ◻️ Pricing for employers
 - ✅ Blog section
-- ✅ Blog categories, prev, etc
+- ◻️ Blog categories, prev, etc
 - ◻️ Localization
 - ◻️ Companies module 
 - ◻️ Video module 
