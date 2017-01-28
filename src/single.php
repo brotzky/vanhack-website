@@ -10,39 +10,42 @@ include(TEMPLATEPATH.'/template-parts/header-meta.php');
 include(TEMPLATEPATH.'/template-parts/header-main.php');
 ?>
 
-
-  <main role="main">
-  <!-- section -->
-  <section>
+  <section class="Blog">
 
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <div class="hero-image hero-image-one"></div>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-      <div class="blog-content">
-      <div class="blog-media">
-          <?php the_post_thumbnail(); // Fullsize image for the single post ?>
-      </div>
-      <div class="blog-text">
-      <?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-
-        </a>
-      <?php endif; ?>
-
-      <h1 class="post-title">
-        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-      </h1>
-
-      <span class="post-date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-
-
-      <?php the_content(); // Dynamic Content ?>
+    <article id="BlogPost-<?php the_ID(); ?>" <?php post_class(); ?>>
+      <div class="BlogPost__content">
+        <div class="BlogPost__media-wrapper"><?php the_post_thumbnail();?></div>
+        <div class="BlogPost__body">
+          <h1 class="BlogPost__title"><?php the_title(); ?></h1>
+          <div class="BlogPost__date"><?php the_time('F j, Y'); ?></div>
+          <div class="BlogPost__text"><?php the_content(); ?></div>
         </div>
       </div>
     </article>
 
-    <div class="blog-home-container">
-      <span class="blog-home-button"><a href="<?php echo esc_url( home_url( '/' ) );?>"> Blog Home</a></span>
+    <div class="BlogPost__nav">
+
+      <?php if(strlen(get_previous_post()->post_title) > 0): ?>
+        <div class="BlogPost__nav-link">
+          <?php previous_post_link('<div class="BlogPost__nav-href">%link</div>', ''); ?>
+          <div class="BlogPost__nav-previous">Previous</div>
+          <?php previous_post_link('%link'); ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if(strlen(get_next_post()->post_title) > 0): ?>
+        <div class="BlogPost__nav-link">
+          <?php next_post_link('<div class="BlogPost__nav-href">%link</div>', ''); ?>
+          <div class="BlogPost__nav-next">Next</div>
+          <?php next_post_link('%link'); ?>
+        </div>
+      <?php endif; ?>
+
+    </div>
+        
+    <div class="BlogPost__home-container">
+      <span class="ButtonSecondary"><a href="/blog"> Blog Home</a></span>
     </div>
 
   <?php endwhile; ?>
@@ -50,15 +53,12 @@ include(TEMPLATEPATH.'/template-parts/header-main.php');
   <?php else: ?>
 
     <article>
-
       <h1><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
-
     </article>
 
   <?php endif; ?>
 
   </section>
-  </main>
 
 
 <?php wp_reset_postdata(); // reset the query ?>

@@ -1,0 +1,104 @@
+.BlogPost {
+
+  &__content {
+    max-width: 920px;
+    margin: $base-space auto;
+    background-color: white;
+  }
+
+  &__media-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__body {
+    border: 1px solid #e9eff1;
+    padding: ($base-space * 2) ($base-space * 4);
+
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin-top: $base-space * 1.5;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: font(5);
+    text-align: center;
+  }
+
+  &__date {
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  &__text {
+    padding: ($base-space * 2) (0) ($base-space);
+
+    p {
+      line-height: 2;
+      font-size: 1.6rem;
+    }
+  }
+
+  &__nav {
+    max-width: 920px;
+    margin: $base-space auto;
+    display: flex;
+    justify-content: space-between;
+
+    &-link {
+      position: relative;
+      display: block;
+      width: 48.7%;
+      padding: ($base-space * 1.5);
+      background-color: white;
+      border: 1px solid #e9eff1;
+      cursor: pointer;
+      @include ease(out, 0.45);
+
+      &:hover {
+        box-shadow: 0 1px 16px 0 rgba(#c9cdce, 0.44);
+      }
+    }
+
+    &-next,
+    &-previous {
+      font-size: font(4);
+      margin-bottom: $base-space / 1.25;
+
+      &:first-child {
+
+      }
+    }
+
+    &-href > a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    &-next {
+      text-align: right;
+    }
+
+    a {
+      display: block;
+      font-size: font(3);
+      color: $text-color;
+    }
+  }
+
+  &__home-container {
+    text-align: center;
+    margin: $base-space * 3 auto 0;
+  }
+}
