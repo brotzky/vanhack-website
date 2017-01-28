@@ -17,7 +17,19 @@
 
   &__body {
     border: 1px solid #e9eff1;
-    padding: ($base-space * 2) ($base-space * 4);
+    padding: ($base-space / 1.5) ($base-space);
+
+    @include bp(small) {
+      padding: ($base-space / 1.25) ($base-space * 2);
+    }
+
+    @include bp(large) {
+      padding: ($base-space * 2) ($base-space * 4);
+    }
+
+    h2 {
+      font-size: font(4);
+    }
 
     h2,
     h3,
@@ -44,6 +56,11 @@
     p {
       line-height: 2;
       font-size: 1.6rem;
+    }
+
+    img {
+      width: 100%;
+      margin: ($base-space / 2) auto;
     }
   }
 
