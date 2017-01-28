@@ -1,0 +1,49 @@
+.Blog {
+  padding-top: $base-space;
+  background-color: #FAFAFA;
+
+  &__posts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: $base-space;
+  }
+
+  &__post {
+    text-align: center;
+    margin-bottom: $base-space * 2;
+    width: 31%;
+    background-color: white;
+    border-bottom: 1px solid #e9eff1;
+    cursor: pointer;
+    @include ease(out, 0.45);
+
+    &:hover {
+      box-shadow: 0 1px 16px 0 rgba(#c9cdce, 0.44);
+    }
+  }
+
+  &__media-wrapper {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__body {
+    padding: ($base-space * 1.25);
+    font-weight: 400;
+    line-height: 1.35;
+  }
+
+  &__header {
+    font-size: font(3);
+    margin-bottom: $base-space / 1.25;
+  }
+
+  &__date {
+    font-size: 1.3rem;
+    opacity: 0.5;
+  }
+}
