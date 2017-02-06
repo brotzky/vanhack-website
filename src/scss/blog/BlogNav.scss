@@ -1,0 +1,32 @@
+.Blog__nav {
+  display: flex;
+  justify-content: center;
+  margin: 45px 0;
+}
+
+.Blog__nav li a,
+.Blog__nav li a:hover,
+.Blog__nav li.active a,
+.Blog__nav li.disabled {
+  color: #fff;
+  text-decoration:none;
+}
+
+.Blog__nav li {
+  display: inline;
+}
+
+.Blog__nav li a,
+.Blog__nav li a:hover,
+.Blog__nav li.active a,
+.Blog__nav li.disabled {
+  background-color: vanhack(pri);
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.Blog__nav li a:hover,
+.Blog__nav li.active a {
+  background-color: lighten(vanhack(pri), 12%);
+}

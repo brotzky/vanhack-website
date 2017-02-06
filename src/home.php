@@ -30,6 +30,9 @@ include(TEMPLATEPATH.'/template-parts/header-main.php');
     </article>
     <?php endwhile; else : endif; ?>
   </div>
+  <div class="Container">
+    <?php numeric_posts_nav(); ?>
+  </div>
 </section>
 
 
