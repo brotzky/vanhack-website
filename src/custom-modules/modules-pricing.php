@@ -40,7 +40,7 @@
         </div>
         <div class="PricingCard__footer">
           <div class="PricingCard__footer">
-            <a href="http://app.vanhack.com/Account/Register" class="PricingCard__button ButtonPrimary">Join VanHack Pro</a>
+            <a href="https://vanhack.samcart.com/products/vanhack-pro/" class="PricingCard__button ButtonPrimary">Join VanHack Pro</a>
             <!-- <div class="PricingCard__footer--learn">Learn More</div> -->
           </div>
         </div>
@@ -61,7 +61,7 @@
           </ul>
         </div>
         <div class="PricingCard__footer">
-          <a href="http://app.vanhack.com/Account/Register" class="PricingCard__button ButtonPrimary">Join VanHack Premium</a>
+          <a href="https://vanhack.samcart.com/products/vanhack-premium" class="PricingCard__button ButtonPrimary">Join VanHack Premium</a>
           <!-- <div class="PricingCard__footer--learn">Learn More</div> -->
         </div>
       </div>  
