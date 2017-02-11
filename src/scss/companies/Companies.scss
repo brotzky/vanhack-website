@@ -1,0 +1,20 @@
+.Companies {
+
+  &__content {
+    padding: 0px;
+    margin: 25px auto;
+
+    @include bp(medium) {
+      margin: 0 auto;
+      padding: 45px 75px;
+    }
+    
+    @include bp(large) {
+      padding: 50px 125px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

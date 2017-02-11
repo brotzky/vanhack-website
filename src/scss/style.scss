@@ -1,12 +1,23 @@
+/*!
+Theme Name: VanHack
+Theme URI: http://vanhack.com
+Author: Dennis Brotzky
+Author URI: https://brotzky.co
+Description: VanHack's Marketing Site
+Version: 1.0.0
+*/
+
+
 @import "config/index";
 
 // grid/container styles
 @import "container/container";
 
-// base=
+// base
 @import "section/index";
 
 @import "blog/index";
+@import "companies/index";
 @import "navigation/index";
 @import "pricing/index";
 @import "full-width/index";
