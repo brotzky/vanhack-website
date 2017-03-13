@@ -7,12 +7,12 @@ This site is still in the process of being built. Progress can be viewed at [van
 
 - ✅ Intial launch with home landing page
 - ◻️ 404 page
-- ◻️ Sync local and production ACF
+- ✅ Sync local and production ACF
 - ◻️ Pricing for employers
 - ✅ Blog section
 - ◻️ Blog categories, prev, etc
 - ◻️ Localization
-- ◻️ Companies module 
+- ✅ Companies module 
 - ◻️ Video module 
 - ✅ Testimonial module 
 - ◻️ Mobile slideout navigation 
