@@ -24,6 +24,7 @@
               <li class="Cities__item">Vancouver</li>
               <li class="Cities__item">San Francisco</li>
               <li class="Cities__item">Dubai</li>
+              <li class="Cities__item">London</li>
             </ul>
           </div>
         </div>

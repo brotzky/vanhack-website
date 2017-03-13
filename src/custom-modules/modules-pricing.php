@@ -54,7 +54,7 @@
           <ul class="PricingCard__list">
             <li class="PricingCard__item">Personal consultation call with a VanHack team member to review your career goals and plan your job search</li>
             <li class="PricingCard__item">Revision of Resume, Cover Letter, LinkedIn Profile & Personal Portfolio</li>
-            <li class="PricingCard__item">44 hours Interview Practice in English per week totalling 528 hours a year</li>
+            <li class="PricingCard__item">40 hours of English per month totalling 480 hours a year</li>
             <li class="PricingCard__item">Exclusive Slack Community to share industry insights and grow together</li>
             <li class="PricingCard__item">Community support to help you on your journey to find a great job abroad</li>
             <li class="PricingCard__item">Exclusive monthly Webinars and trainings</li>
