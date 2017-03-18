@@ -59,6 +59,16 @@
     // Print scripts
     wp_footer();
 ?>
+  <script>
+  // Mobile navigation toggle
+  (function() {
+    var hamburger = document.querySelector('.NavigationPrimary__hamburger');
+    var nav = document.querySelector('.NavigationPrimary');
 
+    hamburger.addEventListener('click', function() {
+      nav.classList.toggle('NavigationPrimary--active');
+    });
+  })();    
+  </script>
 </body>
 </html>

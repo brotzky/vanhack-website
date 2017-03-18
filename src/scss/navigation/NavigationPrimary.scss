@@ -10,11 +10,25 @@
   box-shadow: 0 3px 3px -3px rgba(black, 0.22);
 
   &__nav {
-    margin: 0 25px 0 auto;
-    display: none;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 62px);
+    left: 0;
+    right: 0;
+    top: 62px;
+    transform: translateX(100vw);
+    transition: all .4s cubic-bezier(0.215, 0.61, 0.355, 1);
 
-    @include bp(medium) {
+    @include bp(large) {
+      position: relative;
+      width: auto;
+      height: auto;
+      top: initial;
+      transform: none;
+      margin: 0 25px 0 auto;
       display: block;
+      transition: none;
     }
   }
 
@@ -33,29 +47,90 @@
       display: block;
     }
   }
+
+  &__cta {
+
+    .ButtonPrimary {
+      display: none;
+
+      @include bp(large) {
+        display: block;
+      }
+    }
+  }
+
+  &__hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 20px;
+
+    @include bp(large) {
+      display: none;
+    }
+
+    &-line {
+      height: 2px;
+      width: 30px;
+      background-color: color(grey-mid-dark);
+      transition: all .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  }
 }
 
 .NavigationPrimaryMenu {
   display: flex;
   align-items: center;
 
-
-
   .menu {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     font-weight: 600;
+    padding: 10px 0;
+
+    @include bp(large) {
+      padding: 0;
+      flex-direction: row;
+    }
+
+    @for $i from 1 to 10 {
+      li:nth-child(#{$i}) { transition-delay: $i * 0.09s; }
+    }
 
     li {
-      padding: 0px 12px;
+      padding: 17px 0;
+      width: 80%;
+      margin: 0 auto;
+      text-align: left;
+      border-bottom: 1px solid rgba(black, 0.06);
+      opacity: 0;
+      transform: translate(3px, -5px);
+      transition: all 150ms linear;
+      
+      @include bp(large) {
+        opacity: 1;
+        transform: none;
+        text-align: center;
+        width: auto;
+        padding: 0px 12px;
+        border: none;
+        transition: none;
+      }
 
       a {
         font-size: 1.4rem;
         opacity: 0.9;
         cursor: pointer;
         @include ease(out);
+        color: color(grey-mid-dark);
+
+        @include bp(large) {
+          color: vanhack(pri);
+        }
 
         &:hover {
           color: vanhack(pri);
@@ -76,5 +151,32 @@
 
   @include bp(medium) {
     display: block;
+  }
+}
+
+.NavigationPrimary--active {
+
+  .NavigationPrimary__nav {
+    transform: none;
+  }
+
+  .NavigationPrimary__hamburger-line {
+
+    &:first-child {
+      transform: translateY(9px) scale(0.7) rotate(225deg);
+    }
+
+    &:nth-child(2) {
+      transform: scale(0);
+    }
+
+    &:last-child {
+      transform: translateY(-9px) scale(0.7) rotate(-225deg);
+    }
+  }
+
+  .NavigationPrimaryMenu li {
+    opacity: 1;
+    transform: none;
   }
 }

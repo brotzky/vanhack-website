@@ -22,6 +22,11 @@
             </nav>
             <div class="NavigationPrimary__cta">
                 <a class="ButtonPrimary ButtonPrimary--small" href="http://app.vanhack.com/Account/Register">Join VanHack</a>
+                <div class="NavigationPrimary__hamburger">
+                    <div class="NavigationPrimary__hamburger-line"></div>
+                    <div class="NavigationPrimary__hamburger-line"></div>
+                    <div class="NavigationPrimary__hamburger-line"></div>
+                </div>
             </div>
         </div>
     </div>
