@@ -25,3 +25,5 @@ include(TEMPLATEPATH.'/custom-modules/modules-how-it-works.php');
 include(TEMPLATEPATH.'/custom-modules/modules-startup-accelerator.php');
 // Testimonials with half image and half blue
 include(TEMPLATEPATH.'/custom-modules/modules-companies-worked-with.php');
+// Video
+include(TEMPLATEPATH.'/custom-modules/modules-video.php');

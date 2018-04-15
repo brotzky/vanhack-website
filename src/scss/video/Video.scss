@@ -1,0 +1,40 @@
+.Video {
+  &Module {
+  }
+
+  &Container {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 37px 60px -34px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.25s ease-out;
+    width: 100%;
+
+    @include bp(small) {
+      padding-bottom: 42.1875%;
+      width: 75%;
+    }
+
+    @include bp(large) {
+      padding-bottom: 33.75%;
+      width: 60%;
+    }
+  }
+
+  &Vimeo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &PlayButton {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+  }
+}

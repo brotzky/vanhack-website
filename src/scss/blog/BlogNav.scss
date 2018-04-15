@@ -9,7 +9,7 @@
 .Blog__nav li.active a,
 .Blog__nav li.disabled {
   color: #fff;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .Blog__nav li {
@@ -28,5 +28,5 @@
 
 .Blog__nav li a:hover,
 .Blog__nav li.active a {
-  background-color: lighten(vanhack(pri), 12%);
+  background-color: vanhack(pri);
 }

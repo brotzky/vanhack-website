@@ -2,26 +2,25 @@
     #VARIABLES
 \*------------------------------------*/
 
-
 /**
  * FONT SIZING
  */
 
-$font-size-root:        0.625rem;
-$line-height-base:      1.5;
-$line-height-headings:  1.25;
+$font-size-root: 0.625rem;
+$line-height-base: 1.5;
+$line-height-headings: 1.25;
 
 $font-sizes: (
-  1:    1.250,
-  2:    1.500,
-  3:    1.875,
-  4:    2.250,
-  5:    2.812,
-  6:    3.374,
-  7:    4.218,
-  8:    5.062,
-  9:    6.328,
-  10:   7.594
+  1: 1.25,
+  2: 1.5,
+  3: 1.875,
+  4: 2.25,
+  5: 2.812,
+  6: 3.374,
+  7: 4.218,
+  8: 5.062,
+  9: 6.328,
+  10: 7.594
 );
 
 $heading-sizes: (
@@ -39,21 +38,21 @@ $font-size-body: map-get($font-sizes, 2);
  * FONT WEIGHTS
  */
 
-$font-weight-headings:  600;
-$font-weight-default:   400;
+$font-weight-headings: 600;
+$font-weight-default: 400;
 
 /**
  * FONT FAMILY
  */
 
-$font-copy:     'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+$font-copy: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
 $font-headings: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
 
 /**
- * BASE SPACING VALUE
+ * BASE SPACING VALUconsole.log();E
  */
 
-$base-space: ($line-height-base) * ($font-size-body + rem);
+$base-space: 2.4;
 
 /**
  * BREAKPOINTS
@@ -61,13 +60,13 @@ $base-space: ($line-height-base) * ($font-size-body + rem);
 
 $breakpoints: (
   smallest: 360px,
-  xsmall:   400px,
-  small:    640px,
-  medium:   768px,
-  mlarge:   960px,
-  large:    1024px,
-  xlarge:   1400px,
-  largest:  1500px
+  xsmall: 400px,
+  small: 640px,
+  medium: 768px,
+  mlarge: 960px,
+  large: 1024px,
+  xlarge: 1400px,
+  largest: 1500px
 );
 
 /**
@@ -80,52 +79,52 @@ $grid-gutter: ($base-space / 1.6);
  * COLORS
  */
 
-$colors:  (
-  black:          #262626,
-  black-light:    #484848,
-  blue-pale:      #f2f6f9,
-  blue-grey:      #EDF2F7,
-  blue-stone:     #444B53,
-  blue-purple:    #4B5561,
-  blue:           #0675CE,
-  brown:          #795548,
-  cyan:           #00BCD4,
-  green:          #32C594,
-  grey-dark:      #424242,
-  grey-mid-light: #E3E3E3,
-  grey-light:     #F8F8F8,
-  grey-lightest:  #F9F9F9,
-  grey-bg:        #ECEFF1,
-  grey:           #E3E3E3,
-  grey-mid:       #777777,
-  grey-mid-dark:  #585858,
-  grey-white:     #FAFAFA,
-  red:            #F44336,
+$colors: (
+  black: #262626,
+  black-light: #484848,
+  blue-pale: #f2f6f9,
+  blue-grey: #edf2f7,
+  blue-stone: #444b53,
+  blue-purple: #4b5561,
+  blue: #0675ce,
+  brown: #795548,
+  cyan: #00bcd4,
+  green: #32c594,
+  grey-dark: #424242,
+  grey-mid-light: #e3e3e3,
+  grey-light: #f8f8f8,
+  grey-lightest: #f9f9f9,
+  grey-bg: #eceff1,
+  grey: #e3e3e3,
+  grey-mid: #777777,
+  grey-mid-dark: #585858,
+  grey-white: #fafafa,
+  red: #f44336
 );
 
 $vanhack: (
-  pri:            map-get($colors, blue),
-  sec:            map-get($colors, blue-purple),
-  bg:             map-get($colors, blue-pale),
-  border:         map-get($colors, blue-grey)
+  pri: map-get($colors, blue),
+  sec: map-get($colors, blue-purple),
+  bg: map-get($colors, blue-pale),
+  border: map-get($colors, blue-grey)
 );
 
-$headings-color:  map-get($colors, black-light);
-$text-color:      map-get($colors, black-light);
-$link-color:      map-get($colors, blue);
+$headings-color: map-get($colors, black-light);
+$text-color: map-get($colors, black-light);
+$link-color: map-get($colors, blue);
 
 /**
  * EASINGS
  */
 
 $easings: (
-  in:             cubic-bezier(0.47, 0, 0.745, 0.715),
-  in-back:        cubic-bezier(0.6, -0.28, 0.735, 0.045),
-  out:            cubic-bezier(0.23, 1, 0.32, 1),
-  out-back:       cubic-bezier(0.175, 0.885, 0.32, 1.275),
-  in-out:         cubic-bezier(0.86, 0, 0.07, 1),
-  in-out-back:    cubic-bezier(0.68, -0.55, 0.265, 1.55)
+  in: cubic-bezier(0.47, 0, 0.745, 0.715),
+  in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045),
+  out: cubic-bezier(0.23, 1, 0.32, 1),
+  out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275),
+  in-out: cubic-bezier(0.86, 0, 0.07, 1),
+  in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55)
 );
 
-$transition-ease:   map-get($easings, out) !default;
-$transition-speed:  0.25 !default;
+$transition-ease: map-get($easings, out) !default;
+$transition-speed: 0.25 !default;
