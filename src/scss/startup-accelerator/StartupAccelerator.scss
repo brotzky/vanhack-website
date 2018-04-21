@@ -1,3 +1,6 @@
+@import '../config/_variables.scss';
+@import '../config/_mixins.scss';
+
 .StartupAccelerator {
   &__logos {
     display: flex;
@@ -28,6 +31,4 @@
       }
     }
   }
-
-
 }

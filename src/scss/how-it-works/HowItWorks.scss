@@ -1,5 +1,7 @@
+@import '../config/_variables.scss';
+@import '../config/_mixins.scss';
+
 .HowItWorks {
-  
   &Container {
     display: flex;
     justify-content: space-between;
@@ -20,7 +22,6 @@
 }
 
 .Icon {
-
   &Column {
     width: 80%;
     margin: 75px auto 0;
@@ -35,7 +36,6 @@
       margin-bottom: $base-space * 2;
       color: vanhack(pri);
     }
-
   }
 
   &ColumnRow {
@@ -68,7 +68,6 @@
       }
 
       p {
-
       }
     }
 
@@ -83,6 +82,5 @@
         background-color: white;
       }
     }
-
   }
 }

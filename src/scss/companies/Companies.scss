@@ -1,5 +1,7 @@
-.Companies {
+@import '../config/_variables.scss';
+@import '../config/_mixins.scss';
 
+.Companies {
   &__content {
     padding: 0px;
     margin: 25px auto;
@@ -8,7 +10,7 @@
       margin: 0 auto;
       padding: 45px 75px;
     }
-    
+
     @include bp(large) {
       padding: 50px 125px;
     }

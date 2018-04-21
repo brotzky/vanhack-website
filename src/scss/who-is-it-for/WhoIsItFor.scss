@@ -1,8 +1,11 @@
+@import '../config/_variables.scss';
+@import '../config/_mixins.scss';
+
 .WhoIsItFor {
   &__content {
     display: flex;
     flex-wrap: wrap;
-    
+
     @include bp(small) {
       padding: 0;
     }

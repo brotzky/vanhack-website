@@ -1,3 +1,6 @@
+@import '../config/_variables.scss';
+@import '../config/_mixins.scss';
+
 .NavigationFooter {
   padding: 100px 0;
   color: white;
@@ -43,17 +46,16 @@
     padding: 0;
     margin-bottom: 50px;
     width: auto;
-    
+
     @include bp(large) {
       margin: 0;
       width: 250px;
       padding-left: $base-space * 2;
     }
-
   }
 
   &__company {
-   margin: 0 auto 50px;
+    margin: 0 auto 50px;
 
     @include bp(large) {
       margin: 0;
@@ -91,9 +93,8 @@
 
   ul {
     list-style: none;
-    
-    li {
 
+    li {
       a {
         color: white;
       }

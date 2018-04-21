@@ -93,7 +93,7 @@ module.exports = {
       src: src + 'scss/**/*.scss',
       dest: build
     },
-    compiler: 'rubysass', // Choose a Sass compiler: 'libsass' or 'rubysass'
+    compiler: 'libsass', // Choose a Sass compiler: 'libsass' or 'rubysass'
     cssnano: {
       autoprefixer: {
         add: true,
